@@ -14,9 +14,13 @@ export default {
     format: "iife",
     name: "app",
     file: "public/build/bundle.js",
+    globals: {
+      uikit: "node_modules/uikit/dist/./uikit.min.css",
+    },
   },
   plugins: [
-    css({ output: "public/uikit.css" }),
+    css({ output: "public/build/main.css" }),
+
     svelte({
       // enable run-time checks when not in production
       dev: !production,
@@ -34,7 +38,7 @@ export default {
     // https://github.com/rollup/plugins/tree/master/packages/commonjs
     resolve({
       browser: true,
-      dedupe: ["svelte"],
+      dedupe: ["svelte", "svelte/internal"],
     }),
     commonjs(),
 
