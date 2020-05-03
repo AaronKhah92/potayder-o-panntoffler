@@ -1,0 +1,9 @@
+Filerna i mappen "pager" är hämtad från denna länk/guide:
+https://dev.to/codechips/svelte-routing-with-page-js-part-1-2h9h 
+
+Detta i syfte till att ha en router för navigationen, jag har modiefierat vissa av filerna för att det ska passa med mitt projekt.
+
+The files in the "pager" folder are downloaded from this link / guide:
+https://dev.to/codechips/svelte-routing-with-page-js-part-1-2h9h
+
+This in order to have a router for navigation, I have modified some of the files to fit my project.

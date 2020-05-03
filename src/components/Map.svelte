@@ -1,21 +1,18 @@
 <script>
-
-
-
-import Skane from './Skane.svelte';
-import Blekinge from './Blekinge.svelte';
-import Kalmar from './Kalmar.svelte';
-import Stockholm from './Stockholm.svelte';
+import SkaneMarker from './markers/Skane-marker.svelte';
+import BlekingeMarker from './markers/Blekinge-marker.svelte';
+import KalmarMarker from './markers/Kalmar-marker.svelte';
+import StockholmMarker from './markers/Stockholm-marker.svelte';
 </script>
 
 
 
 <div class="uk-container swemap">
 	<img class="map-img" data-src="../images/sweden-map.svg"  alt="" uk-svg>
-  <Stockholm/>
-  <Kalmar/>
-  <Blekinge/>
-  <Skane/>
+  <StockholmMarker/>
+  <KalmarMarker/>
+  <BlekingeMarker/>
+  <SkaneMarker/>
 </div>
 
 

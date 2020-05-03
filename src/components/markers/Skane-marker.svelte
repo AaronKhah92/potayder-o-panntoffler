@@ -3,7 +3,10 @@
  
 </script>
 
-<img class="skane-marker" data-src="../images/marker-small.png" uk-img>
+
+<a href="" class="county-link">
+  <img class="skane-marker" data-src="../images/marker-small.png" uk-img>
+</a>
 
 <style>
 

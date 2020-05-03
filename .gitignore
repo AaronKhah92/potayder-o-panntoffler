@@ -1,4 +1,6 @@
 /node_modules/
 /public/build/
+/implement/
+
 klotter.html
 .DS_Store
