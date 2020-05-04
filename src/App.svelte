@@ -56,7 +56,7 @@
 </style>
 
 <main>
-  <nav>
+  <nav class="uk-navbar uk-navbar-container ">
     <a href="/">Home</a>
     <a href="/skane">Skåne</a>
     <a href="/blekinge">Blekinge</a>
