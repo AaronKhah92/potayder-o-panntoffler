@@ -1,5 +1,10 @@
 <script>
+
+
 import { url } from '@sveltech/routify'
+import Hallevik from './markers/citiesin/blekinge/Hallevik.svelte';
+import Jamshog from './markers/citiesin/blekinge/Jamshog.svelte';
+import Torhamn from './markers/citiesin/blekinge/Torhamn.svelte';
 </script>
 
   <nav class="uk-navbar-container" uk-nav>
@@ -24,7 +29,44 @@ import { url } from '@sveltech/routify'
     </div>
   </nav>
 
-<h1>Karlshamn är rätt nice, havsvy o så.</h1>
+
+<div class="flex-container">
+  <div class="uk-card uk-card-default uk-width-1-2@m">
+      <div class="uk-card-header">
+          <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-expand">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">Blekinge, Smålands Skåne</h3>
+              </div>
+          </div>
+      </div>
+      <div class="uk-card-body">
+          <p>Karlshamn är rätt nice, havsvy o så.</p>
+      </div>
+  </div>
+  
+  
+  <div class="blekinge-map">
+    <img class="blekinge-img" data-src="../../images/blekinge.svg"  alt="" uk-svg>
+    <Hallevik/>
+    <Jamshog/>
+    <Torhamn/>
+  </div>
+  
+    <div class="uk-card uk-card-default uk-grid-collapse " uk-grid>
+      <div class="uk-card-media-left uk-cover-container">
+          <img src="https://placekitten.com/660/360" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+      </div>
+      <div>
+          <div class="uk-card-body">
+              <h3 class="uk-card-title">Media Left</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+      </div>
+    </div>
+</div>
+
+
 
 <style>
 
@@ -41,5 +83,39 @@ import { url } from '@sveltech/routify'
   font-size: 18px;
 }
 
-</style>
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
+.uk-card  {
+  display: block;
+  background-color:  #fafad2;
+  width: 25%;
+}
+
+.uk-navbar-container {
+  background-color:#C6ECFF;
+}
+.uk-navbar-center {
+  justify-content: center;
+}
+
+.uk-parent >  a {
+  color: #0978AB;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.blekinge-map {
+  width: 34%;
+  height: 100%;
+  margin-right: 8%;
+  margin-left: 8%;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  border: 40px solid #fafad2;
+  }
+
+</style>

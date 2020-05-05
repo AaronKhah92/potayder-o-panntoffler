@@ -3,14 +3,16 @@
  
 </script>
 
+<div class="uk-animation-toggle" tabindex="0">
+   <img alt="skane" class="skane-marker uk-animation-scale-down" data-src="../images/marker-small.png" uk-img>
+</div>
 
-
-  <img alt="skane" class="skane-marker" data-src="../images/marker-small.png" uk-img>
+ 
 
 
 <style>
 
-.skane-marker {
+div > .skane-marker {
   position: absolute;
   top: 91%;
   left: 25%;

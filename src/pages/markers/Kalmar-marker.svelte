@@ -5,11 +5,12 @@
 
 
 
-<img  alt="kalmar"  class="kalmar-marker" data-src="../images/marker-small.png" uk-img>
-
+<div class="uk-animation-toggle">
+  <img alt="kalmar" class="kalmar-marker uk-animation-scale-down" data-src="../images/marker-small.png" uk-img>
+</div>
 <style>
 
-.kalmar-marker {
+div > .kalmar-marker {
   position: absolute;
   top: 82%;
   left: 40%;

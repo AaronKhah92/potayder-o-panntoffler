@@ -4,12 +4,13 @@
 </script>
 
 
-
-<img alt="blekinge" class="blekinge-marker" data-src="../images/marker-small.png" uk-img>
+<div class="uk-animation-toggle">
+  <img alt="blekinge" class="blekinge-marker uk-animation-scale-down" data-src="../images/marker-small.png" uk-img>
+</div>
 
 <style>
 
-.blekinge-marker {
+div > .blekinge-marker {
   position: absolute;
   top: 89%;
   left: 36%;

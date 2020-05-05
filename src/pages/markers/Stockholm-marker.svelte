@@ -4,11 +4,13 @@
 </script>
 
 
-<img  class="stockholm-marker" alt="stockholm" data-src="../images/marker-small.png" uk-img>
+<div class="uk-animation-toggle">
+  <img alt="stockholm" class="stockholm-marker uk-animation-scale-down" data-src="../images/marker-small.png" uk-img>
+</div>
 
 <style>
 
-.stockholm-marker {
+div.uk-animation-toggle > .stockholm-marker {
   position: absolute;
   top: 66.8%;
   left: 53.5%;
