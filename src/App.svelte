@@ -4,7 +4,6 @@
     import { Router } from '@sveltech/routify';
     import { routes } from '@sveltech/routify/tmp/routes';
     import { url } from '@sveltech/routify';
-  '/public/images/WoodTexture.svg'
 </script>
 
 <Router {routes}/>
