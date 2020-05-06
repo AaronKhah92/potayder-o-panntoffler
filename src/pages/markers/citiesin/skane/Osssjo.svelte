@@ -5,14 +5,14 @@
 
 
 
-<img alt="bara" class="bara-marker" data-src="../images/marker-small.png" uk-img>
+<img alt="osssjo" class="osssjo-marker" data-src="../images/marker-small.png" uk-img>
 
 <style>
 
-.bara-marker {
+.osssjo-marker {
   position: absolute;
-  top: 89%;
-  left: 15%;
+  top: 23%;
+  left: 22%;
   width: 25px;
   height: 25px;
 }

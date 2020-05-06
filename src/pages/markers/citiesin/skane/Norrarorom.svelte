@@ -5,14 +5,14 @@
 
 
 
-<img alt="bara" class="bara-marker" data-src="../images/marker-small.png" uk-img>
+<img alt="Norrarorom" class="Norrarorom-marker" data-src="../images/marker-small.png" uk-img>
 
 <style>
 
-.bara-marker {
+.Norrarorom-marker {
   position: absolute;
-  top: 89%;
-  left: 60%;
+  top: 40%;
+  left: 40%;
   width: 25px;
   height: 25px;
 }

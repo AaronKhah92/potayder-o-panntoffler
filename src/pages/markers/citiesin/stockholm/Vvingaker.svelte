@@ -11,8 +11,8 @@
 
 .vvingaker-marker {
   position: absolute;
-  top: 79%;
-  left: 20%;
+  top: 73%;
+  left: 15%;
   width: 25px;
   height: 25px;
 }

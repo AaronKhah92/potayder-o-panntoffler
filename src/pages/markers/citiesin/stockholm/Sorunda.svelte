@@ -11,8 +11,8 @@
 
 .sorunda-marker {
   position: absolute;
-  top: 89%;
-  left: 15%;
+  top: 75%;
+  left: 57%;
   width: 25px;
   height: 25px;
 }

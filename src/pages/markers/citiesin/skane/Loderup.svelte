@@ -5,14 +5,14 @@
 
 
 
-<img alt="bara" class="bara-marker" data-src="../images/marker-small.png" uk-img>
+<img alt="loderup" class="loderup-marker" data-src="../images/marker-small.png" uk-img>
 
 <style>
 
-.bara-marker {
+.loderup-marker {
   position: absolute;
-  top: 89%;
-  left: 50%;
+  top: 90%;
+  left: 70%;
   width: 25px;
   height: 25px;
 }

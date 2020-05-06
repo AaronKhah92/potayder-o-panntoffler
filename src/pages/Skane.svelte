@@ -132,4 +132,6 @@ import Osssjo from './markers/citiesin/skane/Osssjo.svelte';
       position: relative;
       border: 40px solid #fafad2;
     }
+
+    
   </style>

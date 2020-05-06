@@ -11,8 +11,8 @@
 
 .ankarsrum-marker {
   position: absolute;
-  top: 69%;
-  left: 30%;
+  top: 22%;
+  left: 43%;
   width: 25px;
   height: 25px;
 }

@@ -5,14 +5,14 @@
 
 
 
-<img alt="bara" class="bara-marker" data-src="../images/marker-small.png" uk-img>
+<img alt="broby" class="broby-marker" data-src="../images/marker-small.png" uk-img>
 
 <style>
 
-.bara-marker {
+.broby-marker {
   position: absolute;
-  top: 89%;
-  left: 40%;
+  top: 17%;
+  left: 75%;
   width: 25px;
   height: 25px;
 }

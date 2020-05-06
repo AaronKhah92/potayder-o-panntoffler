@@ -11,8 +11,8 @@
 
 .hallevik-marker {
   position: absolute;
-  top: 89%;
-  left: 20%;
+  top: 83%;
+  left: 21%;
   width: 25px;
   height: 25px;
 }

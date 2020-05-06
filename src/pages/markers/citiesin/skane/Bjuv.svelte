@@ -5,14 +5,14 @@
 
 
 
-<img alt="bara" class="bara-marker" data-src="../images/marker-small.png" uk-img>
+<img alt="bjuv" class="bjuv-marker" data-src="../images/marker-small.png" uk-img>
 
 <style>
 
-.bara-marker {
+.bjuv-marker {
   position: absolute;
-  top: 89%;
-  left: 36%;
+  top: 37%;
+  left: 22%;
   width: 25px;
   height: 25px;
 }

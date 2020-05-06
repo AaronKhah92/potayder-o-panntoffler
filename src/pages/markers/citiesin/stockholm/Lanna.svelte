@@ -11,8 +11,8 @@
 
 .lanna-marker {
   position: absolute;
-  top: 59%;
-  left: 30%;
+  top: 62%;
+  left: 37%;
   width: 25px;
   height: 25px;
 }

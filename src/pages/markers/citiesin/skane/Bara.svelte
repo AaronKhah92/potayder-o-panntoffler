@@ -11,8 +11,8 @@
 
 .bara-marker {
   position: absolute;
-  top: 89%;
-  left: 36%;
+  top: 67%;
+  left: 35%;
   width: 25px;
   height: 25px;
 }

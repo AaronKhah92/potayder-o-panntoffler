@@ -11,8 +11,8 @@
 
 .torhamn-marker {
   position: absolute;
-  top: 75%;
-  left: 40%;
+  top: 68%;
+  left: 83%;
   width: 25px;
   height: 25px;
 }
