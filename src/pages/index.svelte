@@ -44,10 +44,10 @@ import StockholmMarker from './markers/Stockholm-marker.svelte';
 
 <div class="uk-container swemap">
 	<img class="map-img" data-src="../images/sweden-map.svg"  alt="" uk-svg>
-  <StockholmMarker/>
-  <KalmarMarker/>
-  <BlekingeMarker/>
-  <SkaneMarker/>
+  <a href={$url('/stockholm')} class="nav-marker"><StockholmMarker/></a>
+  <a href={$url('/kalmar')} class="mark-nav"><KalmarMarker/></a>
+  <a href={$url('/blekinge')} class="mark-nav"><BlekingeMarker/></a>
+  <a href={$url('/skane')} class="mark-nav"><SkaneMarker/></a>
 </div>
 
 
