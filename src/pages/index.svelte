@@ -25,6 +25,10 @@ import StockholmMarker from './markers/Stockholm-marker.svelte';
         <li class="uk-parent">
           <a href={$url('/stockholm')}>Stockholm</a>
         </li>
+        <li class="uk-parent">
+          <a href={$url('/testing-ground')}>testing</a>
+        </li>
+        
       </ul>
     </div>
   </nav>
