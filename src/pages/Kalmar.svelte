@@ -3,6 +3,9 @@
 import { url } from '@sveltech/routify'
 import Ankarsrum from './markers/citiesin/kalmar/Ankarsrum.svelte';
 import Torsas from './markers/citiesin/kalmar/Torsas.svelte';
+
+
+import Audioplayer, { stopAll } from '../components/audioplayer.svelte'; 
 </script>
 
   <nav class="uk-navbar-container" uk-nav>
@@ -72,6 +75,8 @@ import Torsas from './markers/citiesin/kalmar/Torsas.svelte';
 
 
 <style>
+
+
 
 .uk-navbar-container {
   background-color:#C6ECFF;

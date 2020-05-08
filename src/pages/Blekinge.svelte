@@ -5,6 +5,8 @@ import { url } from '@sveltech/routify'
 import Hallevik from './markers/citiesin/blekinge/Hallevik.svelte';
 import Jamshog from './markers/citiesin/blekinge/Jamshog.svelte';
 import Torhamn from './markers/citiesin/blekinge/Torhamn.svelte';
+
+import Audioplayer, { stopAll } from '../components/audioplayer.svelte'; 
 </script>
 
   <nav class="uk-navbar-container" uk-nav>

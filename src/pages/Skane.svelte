@@ -8,6 +8,17 @@ import Broby from './markers/citiesin/skane/Broby.svelte';
 import Loderup from './markers/citiesin/skane/Loderup.svelte';
 import Norrarorom from './markers/citiesin/skane/Norrarorom.svelte';
 import Osssjo from './markers/citiesin/skane/Osssjo.svelte';
+
+import Audioplayer, { stopAll } from '../components/audioplayer.svelte'; 
+import Cardinfo from '../pages/cardinfo.svelte';
+import Modal from '../components/modal.svelte';
+
+let gens = { old: true} 
+
+function genSet() {
+  gens.old = !gens.old;
+}
+
 </script>
 
 <nav class="uk-navbar-container" uk-nav>
@@ -38,41 +49,74 @@ import Osssjo from './markers/citiesin/skane/Osssjo.svelte';
       </div>
     </div>
     <div class="uk-card-body">
-      <p>Är du intresserad av dialekter? I så fall har du kommit rätt, för här kan du lyssna på dialekter
-        från hela det svenska språkområdet.</p>
+      <p>Det regnar, men vädret är fin fint, jag klagade inte"</p>
+
+      <button on:click={genSet}>Change Gen</button>
     </div>
   </div>
-  
-  
+
+
   <div class="skane-map">
     <img class="skane-img" data-src="../../images/skane.svg" alt="" uk-svg>
     <Bara />
-    <Bjuv />
+    <Bjuv cityName="Bjuv" />
     <Broby />
     <Loderup />
     <Norrarorom />
     <Osssjo />
   </div>
-  
-  
-  
-  
+
+
+
+
   <div class="uk-card uk-card-default uk-grid-collapse " uk-grid>
     <div class="uk-card-media-left uk-cover-container">
-        <img src="https://placekitten.com/640/360" alt="" uk-cover>
-        <canvas width="600" height="400"></canvas>
+      <img src="https://placekitten.com/640/360" alt="" uk-cover>
+      <canvas width="600" height="400"></canvas>
     </div>
     <div>
-        <div class="uk-card-body">
-            <h3 class="uk-card-title">Media Left</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
+      <div class="uk-card-body">
+        <h3 class="uk-card-title">Media Left</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+      </div>
     </div>
   </div>
 </div>
 
 
 
+
+  {#if !gens.old}
+<Modal modalId="modal-youngwoman-bjuv" modalTitle="Skåne">
+        <Audioplayer id="bjuv-yw"
+        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/youngwoman.mp3">
+        <Cardinfo title="Bjuv" ageTitle="Ung" gender="kvinna" city="Bjuv" />
+      </Audioplayer>
+</Modal>
+  
+<Modal modalId="modal-youngman-bjuv" modalTitle="Skåne">
+        <Audioplayer id="bjuv-ym"
+        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/youngman.mp3">
+        <Cardinfo title="Bjuv" ageTitle="Ung" gender="man" city="Bjuv" />
+      </Audioplayer>
+</Modal>
+  {/if}
+
+  {#if gens.old}
+<Modal modalId="modal-oldwoman-bjuv" modalTitle="Skåne">
+        <Audioplayer id="bjuv-ow"
+        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/oldwoman.mp3">
+        <Cardinfo title="Bjuv" ageTitle="Äldre" gender="kvinna" city="Bjuv" />
+      </Audioplayer>
+</Modal>
+
+<Modal modalId="modal-oldman-bjuv" modalTitle="Skåne">
+        <Audioplayer id="bjuv-om"
+        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/oldman.mp3">
+        <Cardinfo title="Bjuv" ageTitle="Äldre" gender="man" city="Bjuv" />
+      </Audioplayer>
+</Modal>
+  {/if}
   <style>
     .uk-navbar-container {
       background-color: #C6ECFF;
@@ -130,7 +174,9 @@ import Osssjo from './markers/citiesin/skane/Osssjo.svelte';
       box-sizing: border-box;
       display: inline-block;
       position: relative;
-      border: 40px solid #fafad2;
+      border-right: 40px solid #fafad2;
+      border-left: 40px solid #fafad2;
+      border-top: 0px solid #fafad2;
     }
 
     

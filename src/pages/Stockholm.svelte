@@ -4,6 +4,9 @@ import { url } from '@sveltech/routify'
 import Lanna from './markers/citiesin/stockholm/Lanna.svelte';
 import Sorunda from './markers/citiesin/stockholm/Sorunda.svelte';
 import Vingaker from './markers/citiesin/stockholm/Vvingaker.svelte';
+
+
+import Audioplayer, { stopAll } from '../components/audioplayer.svelte'; 
 </script>
 
   <nav class="uk-navbar-container" uk-nav>
@@ -57,13 +60,16 @@ import Vingaker from './markers/citiesin/stockholm/Vvingaker.svelte';
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
-            <div class="uk-card-body">
+            <div id="mediaplayer" class="uk-card-body">
                 <h3 class="uk-card-title">Media Left</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
         </div>
       </div>
 </div>
+
+
+
 
 <style>
 
