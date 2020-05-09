@@ -21,7 +21,7 @@
 
 <script>
 	import { onMount } from 'svelte';
-	import Cardinfo from '../pages/cardinfo.svelte';
+	import Cardinfo from '../components/cardinfo.svelte';
 
 	export let src;
 	export let id;
