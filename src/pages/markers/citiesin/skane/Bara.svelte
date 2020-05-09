@@ -57,7 +57,7 @@ import Cardinfo from '../../../../components/cardinfo.svelte';
 #youngm-bara.bara-marker {
   position: absolute;
   top: 67%;
-  left: 38%;
+  left: 32%;
   width: 25px;
   height: 25px;
 }
