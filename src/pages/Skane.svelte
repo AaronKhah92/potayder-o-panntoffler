@@ -11,7 +11,12 @@ import Osssjo from './markers/citiesin/skane/Osssjo.svelte';
 
 import BjuvCity from '../pages/skane-cities/bjuv-city.svelte';
 import BaraCity from '../pages/skane-cities/bara-city.svelte';
-import Changebuttons from '../components/changebuttons.svelte';
+import BrobyCity from '../pages/skane-cities/broby-city.svelte';
+import LoderupCity from '../pages/skane-cities/loderup-city.svelte';
+import NorraRoromCity from '../pages/skane-cities/norrarorom-city.svelte';
+import OsssjoCity from '../pages/skane-cities/osssjo-city.svelte';
+import Changebutton from '../components/changebutton.svelte';
+
 
 </script>
 
@@ -45,18 +50,20 @@ import Changebuttons from '../components/changebuttons.svelte';
     <div class="uk-card-body">
       <p>Det regnar, men vädret är fin fint, jag klagade inte"</p>
 
-        <Changebuttons targetCityId="#old-bjuv"/>
-
-        <Changebuttons targetCityId="#old-bara"/>
-     
+        <Changebutton targetCityName="Bjuv" targetCityId="#old-bjuv"/>
+        <Changebutton targetCityName="Bara" targetCityId="#old-bara"/>
+        <Changebutton targetCityName="Broby" targetCityId="#old-broby"/>
+        <Changebutton targetCityName="Loderup" targetCityId="#old-loderup"/>
+        <Changebutton targetCityName="Norrarorum" targetCityId="#old-norrarorum"/>
+        <Changebutton targetCityName="Osssjo" targetCityId="#old-osssjo"/>
   
     </div>
   </div>
 
   <div class="skane-map">
     <img class="skane-img" data-src="../../images/skane.svg" alt="" uk-svg>
-    <Bara />
-    <Bjuv cityName="Bjuv" />
+    <Bara cityName="Bara" />
+    <Bjuv cityName="Bjuv"/>
     <Broby />
     <Loderup />
     <Norrarorom />
@@ -87,7 +94,10 @@ import Changebuttons from '../components/changebuttons.svelte';
 
   <BjuvCity/>
   <BaraCity/>
-    
+  <BrobyCity/>
+  <LoderupCity/>
+  <NorraRoromCity/>
+  <OsssjoCity/>
     
 <style>
 
