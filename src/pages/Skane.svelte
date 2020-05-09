@@ -9,15 +9,9 @@ import Loderup from './markers/citiesin/skane/Loderup.svelte';
 import Norrarorom from './markers/citiesin/skane/Norrarorom.svelte';
 import Osssjo from './markers/citiesin/skane/Osssjo.svelte';
 
-import Audioplayer, { stopAll } from '../components/audioplayer.svelte'; 
-import Cardinfo from '../pages/cardinfo.svelte';
-import Modal from '../components/modal.svelte';
-
-let gens = { old: true} 
-
-function genSet() {
-  gens.old = !gens.old;
-}
+import BjuvCity from '../pages/skane-cities/bjuv-city.svelte';
+import BaraCity from '../pages/skane-cities/bara-city.svelte';
+import Changebuttons from '../components/changebuttons.svelte';
 
 </script>
 
@@ -51,10 +45,13 @@ function genSet() {
     <div class="uk-card-body">
       <p>Det regnar, men vädret är fin fint, jag klagade inte"</p>
 
-      <button on:click={genSet}>Change Gen</button>
+        <Changebuttons targetCityId="#old-bjuv"/>
+
+        <Changebuttons targetCityId="#old-bara"/>
+     
+  
     </div>
   </div>
-
 
   <div class="skane-map">
     <img class="skane-img" data-src="../../images/skane.svg" alt="" uk-svg>
@@ -86,38 +83,14 @@ function genSet() {
 
 
 
-  {#if !gens.old}
-<Modal modalId="modal-youngwoman-bjuv" modalTitle="Skåne">
-        <Audioplayer id="bjuv-yw"
-        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/youngwoman.mp3">
-        <Cardinfo title="Bjuv" ageTitle="Ung" gender="kvinna" city="Bjuv" />
-      </Audioplayer>
-</Modal>
-  
-<Modal modalId="modal-youngman-bjuv" modalTitle="Skåne">
-        <Audioplayer id="bjuv-ym"
-        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/youngman.mp3">
-        <Cardinfo title="Bjuv" ageTitle="Ung" gender="man" city="Bjuv" />
-      </Audioplayer>
-</Modal>
-  {/if}
 
-  {#if gens.old}
-<Modal modalId="modal-oldwoman-bjuv" modalTitle="Skåne">
-        <Audioplayer id="bjuv-ow"
-        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/oldwoman.mp3">
-        <Cardinfo title="Bjuv" ageTitle="Äldre" gender="kvinna" city="Bjuv" />
-      </Audioplayer>
-</Modal>
 
-<Modal modalId="modal-oldman-bjuv" modalTitle="Skåne">
-        <Audioplayer id="bjuv-om"
-        src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/oldman.mp3">
-        <Cardinfo title="Bjuv" ageTitle="Äldre" gender="man" city="Bjuv" />
-      </Audioplayer>
-</Modal>
-  {/if}
-  <style>
+  <BjuvCity/>
+  <BaraCity/>
+    
+    
+<style>
+
     .uk-navbar-container {
       background-color: #C6ECFF;
     }
@@ -178,6 +151,7 @@ function genSet() {
       border-left: 40px solid #fafad2;
       border-top: 0px solid #fafad2;
     }
+
 
     
   </style>

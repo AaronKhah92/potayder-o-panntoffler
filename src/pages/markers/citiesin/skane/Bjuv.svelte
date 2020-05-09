@@ -1,18 +1,11 @@
 <script>
 
 export let cityName;
-let genders = {man:false};
-function toggleGen() {
-  genders.man = !genders.man;
-}
 
-let ages = {old: false};
-function toggleAge() {
-  ages.old = !ages.old;
-}
-import Audioplayer, { playMarker } from '../../../../components/audioplayer.svelte'; 
 
-import Cardinfo from '../../../../pages/cardinfo.svelte';
+import Audioplayer from '../../../../components/audioplayer.svelte'; 
+
+import Cardinfo from '../../../../components/cardinfo.svelte';
 
 
 
@@ -21,64 +14,60 @@ import Cardinfo from '../../../../pages/cardinfo.svelte';
  
 
   
-  {#if genders.man}
+
     
-    <a  href="#modal-youngwoman-bjuv" uk-toggle><img on:click={playMarker} alt="bjuv"
-    uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
-
-    <button on:click={toggleGen}>
-      w
-    </button>
-  {/if}
 
 
-    {#if !genders.man}
 
-       <a class="" href="#modal-youngman-bjuv" uk-toggle><img on:click={playMarker} alt="bjuv"
-    uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
+    <div id="young-bjuv" >
+      <a  href="#modal-youngwoman-bjuv" uk-toggle><img id="youngwo-bjuv" alt="bjuv"
+      uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
+  
+      <a  href="#modal-youngman-bjuv" uk-toggle><img id="youngm-bjuv" alt="bjuv"
+      uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
+    </div>
 
-    <button on:click={toggleGen}>
-       m
-    </button>
-  {/if}
 
-   
-  {#if ages.old}
     
-    <a  href="#modal-oldwoman-bjuv" uk-toggle><img on:click={playMarker} alt="bjuv"
-    uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
+    <div id="old-bjuv" >
+      <a  href="#modal-oldwoman-bjuv" uk-toggle><img id="oldwo-bjuv" alt="bjuv"
+      uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
+  
+      <a  href="#modal-oldman-bjuv" uk-toggle><img id="oldm-bjuv" alt="bjuv"
+      uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
+    </div>
 
-    <button on:click={toggleAge}>
-      y
-    </button>
-  {/if}
 
 
-    {#if !ages.old}
 
-       <a class="" href="#modal-oldman-bjuv" uk-toggle><img on:click={playMarker} alt="bjuv"
-    uk-tooltip={cityName} class="bjuv-marker" data-src="../images/marker-small.png" uk-img></a>
 
-    <button on:click={toggleAge}>
-        o
-    </button>
-  {/if}
+
+
 
 
 
 <style>
 
-.bjuv-marker {
+#oldwo-bjuv.bjuv-marker,
+#youngwo-bjuv.bjuv-marker {
+  position: absolute;
+  top: 37%;
+  left: 25%;
+  width: 25px;
+  height: 25px;
+  filter: hue-rotate(-100deg)
+}
+
+#oldm-bjuv.bjuv-marker,
+#youngm-bjuv.bjuv-marker {
   position: absolute;
   top: 37%;
   left: 22%;
   width: 25px;
   height: 25px;
+  
 }
 
-button {
-  height: 4px;
-}
 
 
 

@@ -1,13 +1,11 @@
 <script>
 
 export let cityName;
-let genders = {man:false};
-function toggleGen() {
-  genders.man = !genders.man;
-}
-import Audioplayer, { playMarker } from '../../../../components/audioplayer.svelte'; 
 
-import Cardinfo from '../../../../pages/cardinfo.svelte';
+
+import Audioplayer from '../../../../components/audioplayer.svelte'; 
+
+import Cardinfo from '../../../../components/cardinfo.svelte';
 
 
 
@@ -16,41 +14,52 @@ import Cardinfo from '../../../../pages/cardinfo.svelte';
  
 
   
-  {#if genders.man}
+
     
-    <a  href="#modal-woman" uk-toggle><img on:click={playMarker} alt="bara"
-    uk-tooltip={cityName} class="bara-marker" data-src="../images/marker-small.png" uk-img></a>
-
-    <button on:click={toggleGen}>
-      m
-    </button>
-  {/if}
 
 
-    {#if !genders.man}
 
-       <a  href="#modal-man" uk-toggle><img on:click={playMarker} alt="bara"
-    uk-tooltip={cityName} class="bara-marker" data-src="../images/marker-small.png" uk-img></a>
+    <div id="young-bara" >
+      <a  href="#modal-youngwoman-bara" uk-toggle><img id="youngwo-bara" alt="bara"
+      uk-tooltip={cityName} class="bara-marker" data-src="../images/marker-small.png" uk-img></a>
+  
+      <a  href="#modal-youngman-bara" uk-toggle><img id="youngm-bara" alt="bara"
+      uk-tooltip={cityName} class="bara-marker" data-src="../images/marker-small.png" uk-img></a>
+    </div>
 
-    <button on:click={toggleGen}>
-        w
-    </button>
-  {/if}
+
+    
+    <div id="old-bara" >
+      <a  href="#modal-oldwoman-bara" uk-toggle><img id="oldwo-bara" alt="bara"
+      uk-tooltip={cityName} class="bara-marker" data-src="../images/marker-small.png" uk-img></a>
+  
+      <a  href="#modal-oldman-bara" uk-toggle><img id="oldm-bara" alt="bara"
+      uk-tooltip={cityName} class="bara-marker" data-src="../images/marker-small.png" uk-img></a>
+    </div>
+
+
+
 
 
 <style>
 
-.bara-marker {
+#oldwo-bara.bara-marker,
+#youngwo-bara.bara-marker {
   position: absolute;
   top: 67%;
   left: 35%;
   width: 25px;
   height: 25px;
+  filter: hue-rotate(-100deg)
 }
 
-button {
-  height: 4px;
-  display: none;
+#oldm-bara.bara-marker,
+#youngm-bara.bara-marker {
+  position: absolute;
+  top: 67%;
+  left: 38%;
+  width: 25px;
+  height: 25px;
 }
 
 
