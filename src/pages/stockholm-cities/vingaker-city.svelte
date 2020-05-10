@@ -8,7 +8,7 @@
 <Modal modalid="modal-youngwoman-vingaker" modaltitle="Skåne">
   <Audioplayer
     id="vingaker-yw"
-    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/vingaker/youngwoman.mp3">
+    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/stockholm/vingaker/youngwoman.mp3">
     <Cardinfo
       title="Västra Vingåker"
       agetitle="Ung"
@@ -20,19 +20,7 @@
 <Modal modalid="modal-oldwoman-vingaker" modaltitle="Skåne">
   <Audioplayer
     id="vingaker-ym"
-    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/vingaker/oldwoman.mp3">
-    <Cardinfo
-      title="Västra Vingåker"
-      agetitle="Ung"
-      gender="man"
-      city="Västra Vingåker" />
-  </Audioplayer>
-</Modal>
-
-<Modal modalid="modal-youngman-vingaker" modaltitle="Skåne">
-  <Audioplayer
-    id="vingaker-ow"
-    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/vingaker/youngman.mp3">
+    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/stockholm/vingaker/oldwoman.mp3">
     <Cardinfo
       title="Västra Vingåker"
       agetitle="Äldre"
@@ -41,10 +29,22 @@
   </Audioplayer>
 </Modal>
 
+<Modal modalid="modal-youngman-vingaker" modaltitle="Skåne">
+  <Audioplayer
+    id="vingaker-ow"
+    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/stockholm/vingaker/youngman.mp3">
+    <Cardinfo
+      title="Västra Vingåker"
+      agetitle="Ung"
+      gender="Man"
+      city="Västra Vingåker" />
+  </Audioplayer>
+</Modal>
+
 <Modal modalid="modal-oldman-vingaker" modaltitle="Skåne">
   <Audioplayer
     id="vingaker-om"
-    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/vingaker/oldman.mp3">
+    src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/stockholm/vingaker/oldman.mp3">
     <Cardinfo
       title="Västra Vingåker"
       agetitle="Äldre"

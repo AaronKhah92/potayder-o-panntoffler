@@ -10,9 +10,10 @@
   #youngwo-torsas.torsas-marker {
     position: absolute;
     top: 89%;
-    left: 26%;
+    left: 28%;
     width: 25px;
     height: 25px;
+    filter: hue-rotate(-100deg);
   }
 
   #oldm-torsas.torsas-marker,
@@ -24,7 +25,6 @@
     height: 25px;
   }
 </style>
-
 
 <div id="young-torsas">
   <a href="#modal-youngwoman-torsas" uk-toggle>

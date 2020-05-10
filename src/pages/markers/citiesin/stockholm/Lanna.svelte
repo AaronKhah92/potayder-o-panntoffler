@@ -10,7 +10,7 @@
   #youngwo-lanna.lanna-marker {
     position: absolute;
     top: 62%;
-    left: 37%;
+    left: 38%;
     width: 25px;
     height: 25px;
     filter: hue-rotate(-100deg);

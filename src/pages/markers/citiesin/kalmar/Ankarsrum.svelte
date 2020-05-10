@@ -10,7 +10,7 @@
   #youngwo-ankarsrum.ankarsrum-marker {
     position: absolute;
     top: 22%;
-    left: 43%;
+    left: 45%;
     width: 25px;
     height: 25px;
     filter: hue-rotate(-100deg);

@@ -17,7 +17,7 @@
   <Audioplayer
     id="bara-ym"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bara/oldwoman.mp3">
-    <Cardinfo title="Bara" agetitle="Ung" gender="man" city="Bara" />
+    <Cardinfo title="Bara" agetitle="Äldre" gender="kvinna" city="Bara" />
   </Audioplayer>
 </Modal>
 
@@ -25,7 +25,7 @@
   <Audioplayer
     id="bara-ow"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bara/youngman.mp3">
-    <Cardinfo title="Bara" agetitle="Äldre" gender="kvinna" city="Bara" />
+    <Cardinfo title="Bara" agetitle="Ung" gender="man" city="Bara" />
   </Audioplayer>
 </Modal>
 

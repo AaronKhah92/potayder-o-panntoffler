@@ -5,6 +5,11 @@
   import Vingaker from "./markers/citiesin/stockholm/Vvingaker.svelte";
 
   import Audioplayer from "../components/audioplayer.svelte";
+  import Changebutton from "../components/changebutton.svelte";
+
+  import LannaCity from "../pages/stockholm-cities/lanna-city.svelte";
+  import SorundaCity from "../pages/stockholm-cities/sorunda-city.svelte";
+  import VingakerCity from "../pages/stockholm-cities/vingaker-city.svelte";
 </script>
 
 <style>
@@ -92,6 +97,12 @@
     </div>
     <div class="uk-card-body">
       <p>Stockholm är mitt Hjääartaa</p>
+
+      <Changebutton targetCityName="Lanna" targetCityId="#old-lanna" />
+      <Changebutton targetCityName="Sorunda" targetCityId="#old-sorunda" />
+      <Changebutton
+        targetCityName="Västra Vingåker"
+        targetCityId="#old-vingaker" />
     </div>
   </div>
 
@@ -122,3 +133,7 @@
     </div>
   </div>
 </div>
+
+<LannaCity />
+<SorundaCity />
+<VingakerCity />

@@ -17,7 +17,7 @@
   <Audioplayer
     id="bjuv-ym"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/oldwoman.mp3">
-    <Cardinfo title="Bjuv" agetitle="Ung" gender="man" city="Bjuv" />
+    <Cardinfo title="Bjuv" agetitle="Äldre" gender="kvinna" city="Bjuv" />
   </Audioplayer>
 </Modal>
 
@@ -25,7 +25,7 @@
   <Audioplayer
     id="bjuv-ow"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/bjuv/youngman.mp3">
-    <Cardinfo title="Bjuv" agetitle="Äldre" gender="kvinna" city="Bjuv" />
+    <Cardinfo title="Bjuv" agetitle="Ung" gender="man" city="Bjuv" />
   </Audioplayer>
 </Modal>
 

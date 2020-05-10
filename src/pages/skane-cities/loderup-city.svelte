@@ -13,7 +13,7 @@
   </Audioplayer>
 </Modal>
 
-<Modal modalid="modal-oldwoman-loderup" modaltitle="Skåne">
+<Modal modalid="modal-youngman-loderup" modaltitle="Skåne">
   <Audioplayer
     id="loderup-ym"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/loderup/youngman.mp3">
@@ -21,7 +21,7 @@
   </Audioplayer>
 </Modal>
 
-<Modal modalid="modal-youngman-loderup" modaltitle="Skåne">
+<Modal modalid="modal-oldwoman-loderup" modaltitle="Skåne">
   <Audioplayer
     id="loderup-ow"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/skane/loderup/oldwoman.mp3">
