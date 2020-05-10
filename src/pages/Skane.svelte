@@ -73,9 +73,7 @@
     box-sizing: border-box;
     display: inline-block;
     position: relative;
-    border-right: 40px solid #fafad2;
-    border-left: 40px solid #fafad2;
-    border-top: 0px solid #fafad2;
+    border: 40px solid #fafad2;
   }
 </style>
 
@@ -102,7 +100,8 @@
 </nav>
 
 <div class="flex-container">
-  <div class="uk-card skane-title uk-card-default uk-width-1-2@m">
+  <div
+    class="uk-card skane-title uk-card-default uk-child-width-1 uk-grid-match">
     <div class="uk-card-header">
       <div class="uk-grid-small uk-flex-middle" uk-grid>
         <div class="uk-width-expand">
@@ -143,7 +142,7 @@
       <canvas width="600" height="400" />
     </div>
     <div>
-      <div class="uk-card-body">
+      <div class="uk-card-body uk-card-hover">
         <h3 class="uk-card-title">Media Left</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

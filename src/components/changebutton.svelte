@@ -6,7 +6,7 @@
 <style>
   .blue-btn {
     background-color: #c6ecff;
-    padding: 12px 12px;
+    padding: 8px 12px;
     margin: 5px 15px;
   }
 </style>
@@ -15,5 +15,5 @@
   class="uk-button-default blue-btn"
   type="button"
   uk-toggle="target: {targetCityId}">
-  Ändra kön {targetCityName}
+  Ändra Åldersgrupp {targetCityName}
 </button>

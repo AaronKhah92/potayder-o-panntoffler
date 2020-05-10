@@ -85,7 +85,7 @@
 </nav>
 
 <div class="flex-container">
-  <div class="uk-card uk-card-default uk-width-1-2@m">
+  <div class="uk-card uk-card-default uk-child-width-1 uk-grid-match">
     <div class="uk-card-header">
       <div class="uk-grid-small uk-flex-middle" uk-grid>
         <div class="uk-width-expand">
