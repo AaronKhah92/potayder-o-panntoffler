@@ -21,8 +21,6 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4",
-    "svelte-uikit": "0.0.1",
-    "uikit": "^3.4.2"
+    "sirv-cli": "^0.4.4"
   }
 }
