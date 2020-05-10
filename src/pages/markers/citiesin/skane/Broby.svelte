@@ -27,7 +27,6 @@
   }
 </style>
 
-
 <div id="young-broby">
   <a href="#modal-youngwoman-broby" uk-toggle>
     <img

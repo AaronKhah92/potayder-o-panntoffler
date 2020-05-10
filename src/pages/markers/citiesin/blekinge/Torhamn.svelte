@@ -10,7 +10,7 @@
   #youngwo-torhamn.torhamn-marker {
     position: absolute;
     top: 68%;
-    left: 83%;
+    left: 86%;
     width: 25px;
     height: 25px;
     filter: hue-rotate(-100deg);
