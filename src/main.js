@@ -1,11 +1,11 @@
 import App from "./App.svelte";
 
 //CSS
-import "../node_modules/uikit/dist/css/uikit.css";
+import "../public/uikit";
 import "../public/global.css";
 
 // JS
-import "../node_modules/uikit/dist/js/uikit";
+import "../public/uikit.js";
 
 const app = new App({
   target: document.body,
