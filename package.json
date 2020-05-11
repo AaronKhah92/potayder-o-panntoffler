@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "run-p watch:routify watch:rollup",
     "start": "sirv public --single",
-    "build": "routify b && rollup -c",
+    "build": "rollup -c",
     "watch:rollup": "rollup -c -w",
     "watch:routify": "routify"
   },
