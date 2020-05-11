@@ -17,7 +17,11 @@
   <Audioplayer
     id="hallevik-ym"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/oldwoman.mp3">
-    <Cardinfo title="Hallevik" agetitle="Ung" gender="man" city="Hallevik" />
+    <Cardinfo
+      title="Hallevik"
+      agetitle="Äldre"
+      gender="kvinna"
+      city="Hallevik" />
   </Audioplayer>
 </Modal>
 

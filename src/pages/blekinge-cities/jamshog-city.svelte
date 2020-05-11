@@ -17,7 +17,7 @@
   <Audioplayer
     id="jamshog-ym"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/jamshog/oldwoman.mp3">
-    <Cardinfo title="Jämshög" agetitle="Ung" gender="man" city="Jämshög" />
+    <Cardinfo title="Jämshög" agetitle="Äldre" gender="Kvinna" city="Jämshög" />
   </Audioplayer>
 </Modal>
 
@@ -25,7 +25,7 @@
   <Audioplayer
     id="jamshog-ow"
     src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/jamshog/youngman.mp3">
-    <Cardinfo title="Jämshög" agetitle="Äldre" gender="kvinna" city="Jämshög" />
+    <Cardinfo title="Jämshög" agetitle="Ung" gender="man" city="Jämshög" />
   </Audioplayer>
 </Modal>
 
