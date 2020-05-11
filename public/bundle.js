@@ -6007,34 +6007,29 @@ var app = (function () {
     	let t8;
     	let a4_href_value;
     	let t9;
-    	let li5;
-    	let a5;
-    	let t10;
-    	let a5_href_value;
-    	let t11;
     	let div5;
     	let div3;
     	let div2;
     	let div1;
     	let h3;
-    	let t13;
+    	let t11;
     	let div4;
     	let p;
-    	let t15;
+    	let t13;
     	let div6;
     	let img;
-    	let t16;
+    	let t14;
+    	let a5;
+    	let a5_href_value;
+    	let t15;
     	let a6;
     	let a6_href_value;
-    	let t17;
+    	let t16;
     	let a7;
     	let a7_href_value;
-    	let t18;
+    	let t17;
     	let a8;
     	let a8_href_value;
-    	let t19;
-    	let a9;
-    	let a9_href_value;
     	let current;
     	const stockholmmarker = new Stockholm_marker({ $$inline: true });
     	const kalmarmarker = new Kalmar_marker({ $$inline: true });
@@ -6066,105 +6061,96 @@ var app = (function () {
     			a4 = element("a");
     			t8 = text("Stockholm");
     			t9 = space();
-    			li5 = element("li");
-    			a5 = element("a");
-    			t10 = text("testing");
-    			t11 = space();
     			div5 = element("div");
     			div3 = element("div");
     			div2 = element("div");
     			div1 = element("div");
     			h3 = element("h3");
     			h3.textContent = "100 svenska dialekter";
-    			t13 = space();
+    			t11 = space();
     			div4 = element("div");
     			p = element("p");
-    			p.textContent = "Är du intresserad av dialekter? I så fall har du kommit rätt, för här kan du lyssna på dialekter från hela det svenska språkområdet.";
-    			t15 = space();
+    			p.textContent = "Är du intresserad av dialekter? I så fall har du kommit rätt, för här kan\r\n      du lyssna på dialekter från hela det svenska språkområdet.";
+    			t13 = space();
     			div6 = element("div");
     			img = element("img");
-    			t16 = space();
-    			a6 = element("a");
+    			t14 = space();
+    			a5 = element("a");
     			create_component(stockholmmarker.$$.fragment);
-    			t17 = space();
-    			a7 = element("a");
+    			t15 = space();
+    			a6 = element("a");
     			create_component(kalmarmarker.$$.fragment);
-    			t18 = space();
-    			a8 = element("a");
+    			t16 = space();
+    			a7 = element("a");
     			create_component(blekingemarker.$$.fragment);
-    			t19 = space();
-    			a9 = element("a");
+    			t17 = space();
+    			a8 = element("a");
     			create_component(skanemarker.$$.fragment);
     			attr_dev(a0, "href", a0_href_value = /*$url*/ ctx[0]("/"));
-    			attr_dev(a0, "class", "svelte-175ou63");
-    			add_location(a0, file$d, 13, 10, 473);
-    			attr_dev(li0, "class", "uk-parent svelte-175ou63");
-    			add_location(li0, file$d, 12, 8, 439);
+    			attr_dev(a0, "class", "svelte-1dpvi9e");
+    			add_location(a0, file$d, 48, 8, 1050);
+    			attr_dev(li0, "class", "uk-parent svelte-1dpvi9e");
+    			add_location(li0, file$d, 47, 6, 1018);
     			attr_dev(a1, "href", a1_href_value = /*$url*/ ctx[0]("/skane"));
-    			attr_dev(a1, "class", "svelte-175ou63");
-    			add_location(a1, file$d, 16, 10, 565);
-    			attr_dev(li1, "class", "uk-parent svelte-175ou63");
-    			add_location(li1, file$d, 15, 8, 531);
+    			attr_dev(a1, "class", "svelte-1dpvi9e");
+    			add_location(a1, file$d, 51, 8, 1136);
+    			attr_dev(li1, "class", "uk-parent svelte-1dpvi9e");
+    			add_location(li1, file$d, 50, 6, 1104);
     			attr_dev(a2, "href", a2_href_value = /*$url*/ ctx[0]("/blekinge"));
-    			attr_dev(a2, "class", "svelte-175ou63");
-    			add_location(a2, file$d, 19, 10, 658);
-    			attr_dev(li2, "class", "uk-parent svelte-175ou63");
-    			add_location(li2, file$d, 18, 8, 624);
+    			attr_dev(a2, "class", "svelte-1dpvi9e");
+    			add_location(a2, file$d, 54, 8, 1223);
+    			attr_dev(li2, "class", "uk-parent svelte-1dpvi9e");
+    			add_location(li2, file$d, 53, 6, 1191);
     			attr_dev(a3, "href", a3_href_value = /*$url*/ ctx[0]("/kalmar"));
-    			attr_dev(a3, "class", "svelte-175ou63");
-    			add_location(a3, file$d, 22, 10, 757);
-    			attr_dev(li3, "class", "uk-parent svelte-175ou63");
-    			add_location(li3, file$d, 21, 8, 723);
+    			attr_dev(a3, "class", "svelte-1dpvi9e");
+    			add_location(a3, file$d, 57, 8, 1316);
+    			attr_dev(li3, "class", "uk-parent svelte-1dpvi9e");
+    			add_location(li3, file$d, 56, 6, 1284);
     			attr_dev(a4, "href", a4_href_value = /*$url*/ ctx[0]("/stockholm"));
-    			attr_dev(a4, "class", "svelte-175ou63");
-    			add_location(a4, file$d, 25, 10, 852);
-    			attr_dev(li4, "class", "uk-parent svelte-175ou63");
-    			add_location(li4, file$d, 24, 8, 818);
-    			attr_dev(a5, "href", a5_href_value = /*$url*/ ctx[0]("/testing-ground"));
-    			attr_dev(a5, "class", "svelte-175ou63");
-    			add_location(a5, file$d, 28, 10, 953);
-    			attr_dev(li5, "class", "uk-parent svelte-175ou63");
-    			add_location(li5, file$d, 27, 8, 919);
+    			attr_dev(a4, "class", "svelte-1dpvi9e");
+    			add_location(a4, file$d, 60, 8, 1405);
+    			attr_dev(li4, "class", "uk-parent svelte-1dpvi9e");
+    			add_location(li4, file$d, 59, 6, 1373);
     			attr_dev(ul, "class", "uk-navbar-nav");
-    			add_location(ul, file$d, 11, 6, 403);
-    			attr_dev(div0, "class", "uk-navbar-center svelte-175ou63");
-    			add_location(div0, file$d, 10, 4, 365);
-    			attr_dev(nav, "class", "uk-navbar-container svelte-175ou63");
+    			add_location(ul, file$d, 46, 4, 984);
+    			attr_dev(div0, "class", "uk-navbar-center svelte-1dpvi9e");
+    			add_location(div0, file$d, 45, 2, 948);
+    			attr_dev(nav, "class", "uk-navbar-container svelte-1dpvi9e");
     			attr_dev(nav, "uk-nav", "");
-    			add_location(nav, file$d, 9, 2, 319);
+    			add_location(nav, file$d, 44, 0, 904);
     			attr_dev(h3, "class", "uk-card-title uk-margin-remove-bottom");
-    			add_location(h3, file$d, 39, 16, 1271);
+    			add_location(h3, file$d, 71, 8, 1682);
     			attr_dev(div1, "class", "uk-width-expand");
-    			add_location(div1, file$d, 38, 12, 1224);
+    			add_location(div1, file$d, 70, 6, 1643);
     			attr_dev(div2, "class", "uk-grid-small uk-flex-middle");
     			attr_dev(div2, "uk-grid", "");
-    			add_location(div2, file$d, 37, 8, 1160);
+    			add_location(div2, file$d, 69, 4, 1585);
     			attr_dev(div3, "class", "uk-card-header");
-    			add_location(div3, file$d, 36, 4, 1122);
-    			add_location(p, file$d, 44, 8, 1437);
+    			add_location(div3, file$d, 68, 2, 1551);
+    			add_location(p, file$d, 78, 4, 1852);
     			attr_dev(div4, "class", "uk-card-body");
-    			add_location(div4, file$d, 43, 4, 1401);
-    			attr_dev(div5, "class", "uk-card uk-card-default uk-width-1-2@m svelte-175ou63");
-    			add_location(div5, file$d, 35, 2, 1064);
-    			attr_dev(img, "class", "map-img svelte-175ou63");
+    			add_location(div4, file$d, 77, 2, 1820);
+    			attr_dev(div5, "class", "uk-card uk-card-default uk-width-1-2@m svelte-1dpvi9e");
+    			add_location(div5, file$d, 67, 0, 1495);
+    			attr_dev(img, "class", "map-img svelte-1dpvi9e");
     			attr_dev(img, "data-src", "../images/sweden-map.svg");
     			attr_dev(img, "alt", "");
     			attr_dev(img, "uk-svg", "");
-    			add_location(img, file$d, 49, 1, 1636);
-    			attr_dev(a6, "href", a6_href_value = /*$url*/ ctx[0]("/stockholm"));
-    			attr_dev(a6, "class", "nav-marker");
-    			add_location(a6, file$d, 50, 2, 1712);
-    			attr_dev(a7, "href", a7_href_value = /*$url*/ ctx[0]("/kalmar"));
+    			add_location(img, file$d, 86, 2, 2071);
+    			attr_dev(a5, "href", a5_href_value = /*$url*/ ctx[0]("/stockholm"));
+    			attr_dev(a5, "class", "nav-marker");
+    			add_location(a5, file$d, 87, 2, 2148);
+    			attr_dev(a6, "href", a6_href_value = /*$url*/ ctx[0]("/kalmar"));
+    			attr_dev(a6, "class", "mark-nav");
+    			add_location(a6, file$d, 90, 2, 2233);
+    			attr_dev(a7, "href", a7_href_value = /*$url*/ ctx[0]("/blekinge"));
     			attr_dev(a7, "class", "mark-nav");
-    			add_location(a7, file$d, 51, 2, 1786);
-    			attr_dev(a8, "href", a8_href_value = /*$url*/ ctx[0]("/blekinge"));
+    			add_location(a7, file$d, 93, 2, 2310);
+    			attr_dev(a8, "href", a8_href_value = /*$url*/ ctx[0]("/skane"));
     			attr_dev(a8, "class", "mark-nav");
-    			add_location(a8, file$d, 52, 2, 1852);
-    			attr_dev(a9, "href", a9_href_value = /*$url*/ ctx[0]("/skane"));
-    			attr_dev(a9, "class", "mark-nav");
-    			add_location(a9, file$d, 53, 2, 1922);
-    			attr_dev(div6, "class", "uk-container swemap svelte-175ou63");
-    			add_location(div6, file$d, 48, 0, 1600);
+    			add_location(a8, file$d, 96, 2, 2391);
+    			attr_dev(div6, "class", "uk-container swemap svelte-1dpvi9e");
+    			add_location(div6, file$d, 85, 0, 2034);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -6192,34 +6178,30 @@ var app = (function () {
     			append_dev(ul, li4);
     			append_dev(li4, a4);
     			append_dev(a4, t8);
-    			append_dev(ul, t9);
-    			append_dev(ul, li5);
-    			append_dev(li5, a5);
-    			append_dev(a5, t10);
-    			insert_dev(target, t11, anchor);
+    			insert_dev(target, t9, anchor);
     			insert_dev(target, div5, anchor);
     			append_dev(div5, div3);
     			append_dev(div3, div2);
     			append_dev(div2, div1);
     			append_dev(div1, h3);
-    			append_dev(div5, t13);
+    			append_dev(div5, t11);
     			append_dev(div5, div4);
     			append_dev(div4, p);
-    			insert_dev(target, t15, anchor);
+    			insert_dev(target, t13, anchor);
     			insert_dev(target, div6, anchor);
     			append_dev(div6, img);
-    			append_dev(div6, t16);
+    			append_dev(div6, t14);
+    			append_dev(div6, a5);
+    			mount_component(stockholmmarker, a5, null);
+    			append_dev(div6, t15);
     			append_dev(div6, a6);
-    			mount_component(stockholmmarker, a6, null);
-    			append_dev(div6, t17);
+    			mount_component(kalmarmarker, a6, null);
+    			append_dev(div6, t16);
     			append_dev(div6, a7);
-    			mount_component(kalmarmarker, a7, null);
-    			append_dev(div6, t18);
+    			mount_component(blekingemarker, a7, null);
+    			append_dev(div6, t17);
     			append_dev(div6, a8);
-    			mount_component(blekingemarker, a8, null);
-    			append_dev(div6, t19);
-    			append_dev(div6, a9);
-    			mount_component(skanemarker, a9, null);
+    			mount_component(skanemarker, a8, null);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
@@ -6243,24 +6225,20 @@ var app = (function () {
     				attr_dev(a4, "href", a4_href_value);
     			}
 
-    			if (!current || dirty & /*$url*/ 1 && a5_href_value !== (a5_href_value = /*$url*/ ctx[0]("/testing-ground"))) {
+    			if (!current || dirty & /*$url*/ 1 && a5_href_value !== (a5_href_value = /*$url*/ ctx[0]("/stockholm"))) {
     				attr_dev(a5, "href", a5_href_value);
     			}
 
-    			if (!current || dirty & /*$url*/ 1 && a6_href_value !== (a6_href_value = /*$url*/ ctx[0]("/stockholm"))) {
+    			if (!current || dirty & /*$url*/ 1 && a6_href_value !== (a6_href_value = /*$url*/ ctx[0]("/kalmar"))) {
     				attr_dev(a6, "href", a6_href_value);
     			}
 
-    			if (!current || dirty & /*$url*/ 1 && a7_href_value !== (a7_href_value = /*$url*/ ctx[0]("/kalmar"))) {
+    			if (!current || dirty & /*$url*/ 1 && a7_href_value !== (a7_href_value = /*$url*/ ctx[0]("/blekinge"))) {
     				attr_dev(a7, "href", a7_href_value);
     			}
 
-    			if (!current || dirty & /*$url*/ 1 && a8_href_value !== (a8_href_value = /*$url*/ ctx[0]("/blekinge"))) {
+    			if (!current || dirty & /*$url*/ 1 && a8_href_value !== (a8_href_value = /*$url*/ ctx[0]("/skane"))) {
     				attr_dev(a8, "href", a8_href_value);
-    			}
-
-    			if (!current || dirty & /*$url*/ 1 && a9_href_value !== (a9_href_value = /*$url*/ ctx[0]("/skane"))) {
-    				attr_dev(a9, "href", a9_href_value);
     			}
     		},
     		i: function intro(local) {
@@ -6280,9 +6258,9 @@ var app = (function () {
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(nav);
-    			if (detaching) detach_dev(t11);
+    			if (detaching) detach_dev(t9);
     			if (detaching) detach_dev(div5);
-    			if (detaching) detach_dev(t15);
+    			if (detaching) detach_dev(t13);
     			if (detaching) detach_dev(div6);
     			destroy_component(stockholmmarker);
     			destroy_component(kalmarmarker);
@@ -8040,7 +8018,7 @@ var app = (function () {
     			div9 = element("div");
     			div8 = element("div");
     			h31 = element("h3");
-    			h31.textContent = "Media Left";
+    			h31.textContent = "Kalmar";
     			t22 = space();
     			p1 = element("p");
     			p1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\r\n          eiusmod tempor incididunt.";
@@ -8112,7 +8090,7 @@ var app = (function () {
     			add_location(div7, file$g, 110, 4, 2838);
     			attr_dev(h31, "class", "uk-card-title");
     			add_location(h31, file$g, 116, 8, 3059);
-    			add_location(p1, file$g, 117, 8, 3110);
+    			add_location(p1, file$g, 117, 8, 3106);
     			attr_dev(div8, "class", "uk-card-body");
     			add_location(div8, file$g, 115, 6, 3023);
     			add_location(div9, file$g, 114, 4, 3010);

@@ -114,7 +114,7 @@
     </div>
     <div>
       <div class="uk-card-body">
-        <h3 class="uk-card-title">Media Left</h3>
+        <h3 class="uk-card-title">Kalmar</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
