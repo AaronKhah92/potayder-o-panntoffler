@@ -15,11 +15,11 @@ export default {
     name: "app",
     file: "public/build/bundle.js",
     globals: {
-      /* uikit: "node_modules/uikit/dist/./uikit.min.css", */
+      uikit: "node_modules/uikit/dist/./uikit.min.css",
     },
   },
   plugins: [
-    /* css({ output: "public/build/main.css" }), */
+    css({ output: "/public/main.css" }),
 
     svelte({
       // enable run-time checks when not in production
