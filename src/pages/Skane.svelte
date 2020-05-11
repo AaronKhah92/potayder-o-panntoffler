@@ -6,6 +6,8 @@
   import Loderup from "./markers/citiesin/skane/Loderup.svelte";
   import Norrarorom from "./markers/citiesin/skane/Norrarorom.svelte";
   import Osssjo from "./markers/citiesin/skane/Osssjo.svelte";
+  import KingMarker from "./markers/citiesin/skane/easteregg.svelte";
+  import BoneMarker from "./markers/citiesin/skane/easteregg.svelte";
 
   import BjuvCity from "../pages/skane-cities/bjuv-city.svelte";
   import BaraCity from "../pages/skane-cities/bara-city.svelte";
@@ -13,6 +15,7 @@
   import LoderupCity from "../pages/skane-cities/loderup-city.svelte";
   import NorraRoromCity from "../pages/skane-cities/norrarorom-city.svelte";
   import OsssjoCity from "../pages/skane-cities/osssjo-city.svelte";
+  import EasterEgg from "../pages/skane-cities/easteregg-modal.svelte";
   import Changebutton from "../components/changebutton.svelte";
 </script>
 
@@ -134,6 +137,8 @@
     <Loderup />
     <Norrarorom />
     <Osssjo />
+    <KingMarker />
+    <BoneMarker />
   </div>
 
   <div class="uk-card uk-card-default uk-grid-collapse " uk-grid>
@@ -159,3 +164,4 @@
 <LoderupCity />
 <NorraRoromCity />
 <OsssjoCity />
+<EasterEgg />
