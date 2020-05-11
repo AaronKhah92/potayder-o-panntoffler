@@ -109,7 +109,7 @@
 
   <div class="uk-card uk-card-default uk-grid-collapse " uk-grid>
     <div class="uk-card-media-left uk-cover-container">
-      <img src="https://placekitten.com/660/360" alt="" uk-cover />
+      <img src="./../images/kalmar.jpg" alt="" uk-cover />
       <canvas width="600" height="400" />
     </div>
     <div>

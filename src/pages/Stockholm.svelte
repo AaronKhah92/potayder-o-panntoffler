@@ -119,12 +119,12 @@
 
   <div class="uk-card uk-card-default uk-grid-collapse " uk-grid>
     <div class="uk-card-media-left uk-cover-container">
-      <img src="https://placekitten.com/660/360" alt="" uk-cover />
+      <img src="./../images/stockholm.jpg" alt="" uk-cover />
       <canvas width="600" height="400" />
     </div>
     <div>
       <div id="mediaplayer" class="uk-card-body">
-        <h3 class="uk-card-title">Media Left</h3>
+        <h3 class="uk-card-title">Stockholm</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.

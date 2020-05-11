@@ -138,12 +138,12 @@
 
   <div class="uk-card uk-card-default uk-grid-collapse " uk-grid>
     <div class="uk-card-media-left uk-cover-container">
-      <img src="https://placekitten.com/640/360" alt="" uk-cover />
+      <img src="../../images/skaneland.jpg" alt="" uk-cover />
       <canvas width="600" height="400" />
     </div>
     <div>
-      <div class="uk-card-body uk-card-hover">
-        <h3 class="uk-card-title">Media Left</h3>
+      <div class="uk-card-body">
+        <h3 class="uk-card-title">Vackra Skåne</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.

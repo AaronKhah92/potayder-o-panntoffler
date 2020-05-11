@@ -3096,8 +3096,8 @@ var app = (function () {
     	const cardinfo = new Cardinfo({
     			props: {
     				title: "Hallevik",
-    				agetitle: "Ung",
-    				gender: "man",
+    				agetitle: "Äldre",
+    				gender: "kvinna",
     				city: "Hallevik"
     			},
     			$$inline: true
@@ -3193,7 +3193,7 @@ var app = (function () {
     	return block;
     }
 
-    // (25:2) <Audioplayer      id="hallevik-ow"      src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/youngman.mp3">
+    // (29:2) <Audioplayer      id="hallevik-ow"      src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/youngman.mp3">
     function create_default_slot_3(ctx) {
     	let current;
 
@@ -3234,14 +3234,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(25:2) <Audioplayer      id=\\\"hallevik-ow\\\"      src=\\\"https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/youngman.mp3\\\">",
+    		source: "(29:2) <Audioplayer      id=\\\"hallevik-ow\\\"      src=\\\"https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/youngman.mp3\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (24:0) <Modal modalid="modal-youngman-hallevik" modaltitle="Skåne">
+    // (28:0) <Modal modalid="modal-youngman-hallevik" modaltitle="Skåne">
     function create_default_slot_2(ctx) {
     	let current;
 
@@ -3290,14 +3290,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(24:0) <Modal modalid=\\\"modal-youngman-hallevik\\\" modaltitle=\\\"Skåne\\\">",
+    		source: "(28:0) <Modal modalid=\\\"modal-youngman-hallevik\\\" modaltitle=\\\"Skåne\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (33:2) <Audioplayer      id="hallevik-om"      src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/oldman.mp3">
+    // (37:2) <Audioplayer      id="hallevik-om"      src="https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/oldman.mp3">
     function create_default_slot_1(ctx) {
     	let current;
 
@@ -3338,14 +3338,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(33:2) <Audioplayer      id=\\\"hallevik-om\\\"      src=\\\"https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/oldman.mp3\\\">",
+    		source: "(37:2) <Audioplayer      id=\\\"hallevik-om\\\"      src=\\\"https://aaronkhah92.github.io/potayder-o-panntoffler/public/assets/counties/blekinge/hallevik/oldman.mp3\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (32:0) <Modal modalid="modal-oldman-hallevik" modaltitle="Skåne">
+    // (36:0) <Modal modalid="modal-oldman-hallevik" modaltitle="Skåne">
     function create_default_slot$1(ctx) {
     	let current;
 
@@ -3394,7 +3394,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$1.name,
     		type: "slot",
-    		source: "(32:0) <Modal modalid=\\\"modal-oldman-hallevik\\\" modaltitle=\\\"Skåne\\\">",
+    		source: "(36:0) <Modal modalid=\\\"modal-oldman-hallevik\\\" modaltitle=\\\"Skåne\\\">",
     		ctx
     	});
 
@@ -3874,8 +3874,8 @@ var app = (function () {
     	const cardinfo = new Cardinfo({
     			props: {
     				title: "Jämshög",
-    				agetitle: "Ung",
-    				gender: "man",
+    				agetitle: "Äldre",
+    				gender: "Kvinna",
     				city: "Jämshög"
     			},
     			$$inline: true
@@ -3978,8 +3978,8 @@ var app = (function () {
     	const cardinfo = new Cardinfo({
     			props: {
     				title: "Jämshög",
-    				agetitle: "Äldre",
-    				gender: "kvinna",
+    				agetitle: "Ung",
+    				gender: "man",
     				city: "Jämshög"
     			},
     			$$inline: true
@@ -5412,7 +5412,7 @@ var app = (function () {
     			div9 = element("div");
     			div8 = element("div");
     			h31 = element("h3");
-    			h31.textContent = "Media Left";
+    			h31.textContent = "Blekinge";
     			t24 = space();
     			p1 = element("p");
     			p1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\r\n          eiusmod tempor incididunt.";
@@ -5475,21 +5475,21 @@ var app = (function () {
     			add_location(img0, file$8, 108, 4, 2836);
     			attr_dev(div6, "class", "blekinge-map svelte-4dp07p");
     			add_location(div6, file$8, 107, 2, 2804);
-    			if (img1.src !== (img1_src_value = "https://placekitten.com/660/360")) attr_dev(img1, "src", img1_src_value);
+    			if (img1.src !== (img1_src_value = "../../images/blekinge.jpg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
     			attr_dev(img1, "uk-cover", "");
     			add_location(img1, file$8, 120, 6, 3139);
     			attr_dev(canvas, "width", "600");
     			attr_dev(canvas, "height", "400");
-    			add_location(canvas, file$8, 121, 6, 3208);
+    			add_location(canvas, file$8, 121, 6, 3202);
     			attr_dev(div7, "class", "uk-card-media-left uk-cover-container");
     			add_location(div7, file$8, 119, 4, 3080);
     			attr_dev(h31, "class", "uk-card-title");
-    			add_location(h31, file$8, 125, 8, 3310);
-    			add_location(p1, file$8, 126, 8, 3361);
+    			add_location(h31, file$8, 125, 8, 3304);
+    			add_location(p1, file$8, 126, 8, 3353);
     			attr_dev(div8, "class", "uk-card-body");
-    			add_location(div8, file$8, 124, 6, 3274);
-    			add_location(div9, file$8, 123, 4, 3261);
+    			add_location(div8, file$8, 124, 6, 3268);
+    			add_location(div9, file$8, 123, 4, 3255);
     			attr_dev(div10, "class", "uk-card uk-card-default uk-grid-collapse  svelte-4dp07p");
     			attr_dev(div10, "uk-grid", "");
     			add_location(div10, file$8, 118, 2, 3011);
@@ -8101,21 +8101,21 @@ var app = (function () {
     			add_location(img0, file$g, 104, 4, 2631);
     			attr_dev(div6, "class", "kalmar-map svelte-15n1abi");
     			add_location(div6, file$g, 103, 2, 2601);
-    			if (img1.src !== (img1_src_value = "https://placekitten.com/660/360")) attr_dev(img1, "src", img1_src_value);
+    			if (img1.src !== (img1_src_value = "./../images/kalmar.jpg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
     			attr_dev(img1, "uk-cover", "");
     			add_location(img1, file$g, 111, 6, 2897);
     			attr_dev(canvas, "width", "600");
     			attr_dev(canvas, "height", "400");
-    			add_location(canvas, file$g, 112, 6, 2966);
+    			add_location(canvas, file$g, 112, 6, 2957);
     			attr_dev(div7, "class", "uk-card-media-left uk-cover-container");
     			add_location(div7, file$g, 110, 4, 2838);
     			attr_dev(h31, "class", "uk-card-title");
-    			add_location(h31, file$g, 116, 8, 3068);
-    			add_location(p1, file$g, 117, 8, 3119);
+    			add_location(h31, file$g, 116, 8, 3059);
+    			add_location(p1, file$g, 117, 8, 3110);
     			attr_dev(div8, "class", "uk-card-body");
-    			add_location(div8, file$g, 115, 6, 3032);
-    			add_location(div9, file$g, 114, 4, 3019);
+    			add_location(div8, file$g, 115, 6, 3023);
+    			add_location(div9, file$g, 114, 4, 3010);
     			attr_dev(div10, "class", "uk-card uk-card-default uk-grid-collapse  svelte-15n1abi");
     			attr_dev(div10, "uk-grid", "");
     			add_location(div10, file$g, 109, 2, 2769);
@@ -13737,7 +13737,7 @@ var app = (function () {
     			div9 = element("div");
     			div8 = element("div");
     			h31 = element("h3");
-    			h31.textContent = "Media Left";
+    			h31.textContent = "Vackra Skåne";
     			t30 = space();
     			p1 = element("p");
     			p1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\r\n          eiusmod tempor incididunt.";
@@ -13806,21 +13806,21 @@ var app = (function () {
     			add_location(img0, file$q, 129, 4, 3530);
     			attr_dev(div6, "class", "skane-map svelte-35bq4m");
     			add_location(div6, file$q, 128, 2, 3501);
-    			if (img1.src !== (img1_src_value = "https://placekitten.com/640/360")) attr_dev(img1, "src", img1_src_value);
+    			if (img1.src !== (img1_src_value = "../../images/skaneland.jpg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
     			attr_dev(img1, "uk-cover", "");
     			add_location(img1, file$q, 140, 6, 3875);
     			attr_dev(canvas, "width", "600");
     			attr_dev(canvas, "height", "400");
-    			add_location(canvas, file$q, 141, 6, 3944);
+    			add_location(canvas, file$q, 141, 6, 3939);
     			attr_dev(div7, "class", "uk-card-media-left uk-cover-container");
     			add_location(div7, file$q, 139, 4, 3816);
     			attr_dev(h31, "class", "uk-card-title");
-    			add_location(h31, file$q, 145, 8, 4060);
-    			add_location(p1, file$q, 146, 8, 4111);
-    			attr_dev(div8, "class", "uk-card-body uk-card-hover");
-    			add_location(div8, file$q, 144, 6, 4010);
-    			add_location(div9, file$q, 143, 4, 3997);
+    			add_location(h31, file$q, 145, 8, 4041);
+    			add_location(p1, file$q, 146, 8, 4094);
+    			attr_dev(div8, "class", "uk-card-body");
+    			add_location(div8, file$q, 144, 6, 4005);
+    			add_location(div9, file$q, 143, 4, 3992);
     			attr_dev(div10, "class", "uk-card uk-card-default uk-grid-collapse  svelte-35bq4m");
     			attr_dev(div10, "uk-grid", "");
     			add_location(div10, file$q, 138, 2, 3747);
@@ -15994,7 +15994,7 @@ var app = (function () {
     			div9 = element("div");
     			div8 = element("div");
     			h31 = element("h3");
-    			h31.textContent = "Media Left";
+    			h31.textContent = "Stockholm";
     			t24 = space();
     			p1 = element("p");
     			p1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\r\n          eiusmod tempor incididunt.";
@@ -16057,22 +16057,22 @@ var app = (function () {
     			add_location(img0, file$r, 109, 4, 2844);
     			attr_dev(div6, "class", "stockholm-map svelte-1qvnqpl");
     			add_location(div6, file$r, 108, 2, 2811);
-    			if (img1.src !== (img1_src_value = "https://placekitten.com/660/360")) attr_dev(img1, "src", img1_src_value);
+    			if (img1.src !== (img1_src_value = "./../images/stockholm.jpg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
     			attr_dev(img1, "uk-cover", "");
     			add_location(img1, file$r, 121, 6, 3147);
     			attr_dev(canvas, "width", "600");
     			attr_dev(canvas, "height", "400");
-    			add_location(canvas, file$r, 122, 6, 3216);
+    			add_location(canvas, file$r, 122, 6, 3210);
     			attr_dev(div7, "class", "uk-card-media-left uk-cover-container");
     			add_location(div7, file$r, 120, 4, 3088);
     			attr_dev(h31, "class", "uk-card-title");
-    			add_location(h31, file$r, 126, 8, 3335);
-    			add_location(p1, file$r, 127, 8, 3386);
+    			add_location(h31, file$r, 126, 8, 3329);
+    			add_location(p1, file$r, 127, 8, 3379);
     			attr_dev(div8, "id", "mediaplayer");
     			attr_dev(div8, "class", "uk-card-body");
-    			add_location(div8, file$r, 125, 6, 3282);
-    			add_location(div9, file$r, 124, 4, 3269);
+    			add_location(div8, file$r, 125, 6, 3276);
+    			add_location(div9, file$r, 124, 4, 3263);
     			attr_dev(div10, "class", "uk-card uk-card-default uk-grid-collapse  svelte-1qvnqpl");
     			attr_dev(div10, "uk-grid", "");
     			add_location(div10, file$r, 119, 2, 3019);
